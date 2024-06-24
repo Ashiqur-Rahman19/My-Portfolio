@@ -1,0 +1,614 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Noto+Sans:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 0, 36) !important;
+    color: white !important;
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 700;
+}
+
+h3, h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h5, h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+h6{
+    color: rgb(165, 165, 165) !important;
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: rgb(201, 201, 201);
+}
+
+a{
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: rgb(223, 223, 223) !important;
+    font-weight: 500 !important;
+    font-size: 18px !important; 
+}
+
+
+.btn{
+    color: white !important;
+    border: 1px solid  white !important;
+    cursor: pointer !important; 
+    box-shadow: 2px 2px 5px  rgb(0, 0, 0);
+    font-weight: 600 !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    transition: .3s !important;
+}
+
+.btn:hover{
+    background-color: white !important;
+    color: orangered!important;
+    transition: .3s !important;
+}
+
+
+/*====================== Header section starts here======================== */
+#logo{
+    font-size: 35px !important;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+
+#logo span{
+    color: orangered;
+}
+
+#myNav{
+    margin-left: 200px;
+ 
+ }
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    color: rgb(223, 223, 223) !important;
+    font-weight: 400 !important;
+    transition: all ease-in-out .3s;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+/*====================== Header section ends here======================== */
+
+/*======================== Section 1 strarts here========================= */
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.section_1_text{
+    margin-top: -150px;
+}
+
+.social_link {
+    margin-left: -5px;
+    margin-bottom: 20px;
+    color:rgb(146, 146, 146);
+}
+
+.social_link i{
+    padding: 5px 7px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.social_link .fa-brands{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-square-facebook:hover{
+    color: 	white;   
+}
+
+.fa-square-x-twitter:hover{
+    color: white;
+}
+
+.fa-square-instagram:hover{
+    color: white;
+}
+
+.fa-linkedin:hover{
+    color: white;
+}
+
+.fa-square-youtube:hover{
+    color: white;
+}
+
+.section_1_text_para{
+    position: absolute; 
+    padding-right: 50px;
+}
+
+.section_1_text_para h1{
+    font-size: 55px;
+}
+
+.section_1_text_para span{
+    color: orangered;
+}
+
+.para{
+    width: 40%;
+}
+
+.section_1_text_para p{
+    color: rgb(201, 201, 201);
+}
+
+.btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px !important;
+}
+
+/*======================== Section 1 ends here========================= */
+
+/*======================== Section 2 starts here========================= */
+.section2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section2-header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section2-header h5{
+    color: red;
+}
+
+.services{
+    margin-top: 30px;
+}
+
+.card{
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 1px solid orangered;
+    transform: translateY(-10px);
+    transition: .5s;
+    box-shadow: 1px 1px 5px rgb(150, 150, 150) , -1px -1px 5px rgb(150, 150, 150);
+}
+
+
+.card-body{
+    text-align: center;
+    background-color:rgb(1, 0, 36);
+    border-radius: 5px;
+}
+
+.card-body i{
+    font-size: 35px;
+    margin: 10px;
+    color: orangered;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.card-body i:hover{
+    color: white;
+    background-color: orangered;
+    transition: .5s;
+}
+
+.card-body h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.card-title{
+    text-align: justify !important;
+    padding: 0 10px;
+}
+
+.card-title{
+    color: rgb(165, 165, 165) !important;
+    font-size: 15px;
+}
+/*======================== Section 2 ends here========================= */
+
+/*======================== Section 3 starts here========================= */
+.section3{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+.section3_aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3-header{
+    text-align: center;
+}
+
+.section3-header h5{
+    color: red;
+}
+
+.section3-text{
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.section3-text h1{
+    color: orangered;
+}
+/*======================== Section 3 ends here========================= */
+
+/*======================== Section 4 starts here========================= */
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.section4_text{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.section4_text h2{
+    font-size: 45px;
+}
+
+.section4_text h5{
+    color: red;
+}
+
+.section4_text p{
+    text-align: justify;
+}
+
+/* Progress bar */
+.skill-container{
+    width: 40%;
+    padding: 10px;
+}
+
+.skill-container h5{
+    font-size: 15px;
+}
+
+.skill-container li{
+    list-style: none;
+    text-transform: capitalize;
+    margin: 50px 10px;
+    position: relative; 
+    font-weight: 500;
+}
+
+.skill-container li::before{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: rgb(202, 202, 202);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 100px;
+    
+}
+
+.skill-container li::after{
+    content: '';
+    width:0%;
+    height: 5px;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border-radius: 100px;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-delay: 5s;
+}
+
+.skill-container li.html::after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 95%;
+        background-color: orangered;;
+    }
+}
+
+.skill-container li.css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 90%;
+        background-color: orangered;
+    }
+}
+
+.skill-container li.java::after{
+    animation-name: java;
+}
+
+@keyframes java{
+    to{
+        width: 80%;
+        background-color:orangered;;
+    }
+}
+
+.skill-container li.php::after{
+    animation-name: php;
+}
+
+@keyframes php{
+    to{
+        width: 85%;
+        background-color: orangered;;
+    }
+}
+
+.skill-container li.node_js::after{
+    animation-name: node;
+}
+
+@keyframes node{
+    to{
+        width: 90%;
+        background-color: orangered;;
+    }
+}
+/* Progress bar */
+/*======================== Section 4 ends here========================= */
+
+/*======================== Section 5 starts here========================= */
+    .section5{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .section5_header{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .section5_header h5{
+        color: red;
+    }
+
+    .section5_portfolios{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section5_portfolios .card:hover{
+        transform: scale(1.1)!important;
+        transition: .5s !important;
+    }
+
+    .section5_portfolios .card:hover h6{
+        color: white !important;
+    }
+/*======================== Section 5 ends here========================= */
+
+/*======================== Section 6 starts here========================= */
+    .section6{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .section6_header{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .section6_header h5{
+        color: red;
+    }
+
+    .contact_header{
+        margin-bottom: 50px;
+    }
+
+    .contact_address{
+        margin-bottom: 55px;
+        margin-left: -25px;
+    }
+
+    .contact_link {
+        margin-top: 10px;
+    }
+
+    .contact_link h2{
+        font-size: 20px !important;
+    }
+
+    .myIcon{
+        font-size: 40px;
+        margin: 0 30px;
+        padding:15px 15px 15px 15px;
+        color: orangered;
+        background-color: white;
+        border: 1px solid orangered;
+        border-radius: 5px;
+    }
+
+    .myIcon:hover{
+        color: orangered;
+        background-color: white;
+        border: 1px solid orangered;
+    }
+
+    .my_input{
+        width: 100%;
+        height: 45px;
+        border: 1px solid rgb(100, 100, 100);
+        outline: none;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgb(1, 0, 36);
+        color: white;
+    }
+
+    .my_input::placeholder{
+        color: rgb(180, 180, 180);
+        font-weight: 500;
+    }
+
+    .my_input2{
+        width: 100%;
+        resize: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-top: 15px;
+        border: 1px solid rgb(100, 100, 100);
+        outline: none;
+        background-color: rgb(1, 0, 36);
+        color: white;
+    }
+
+    .my_input2::placeholder{
+        color: rgb(180, 180, 180);
+        font-weight: 500;
+    }
+/*======================== Section 6 ends here========================= */
+
+
+/*======================== Footer starts here========================= */
+    footer{
+        background-color: rgb(1, 0, 22);
+        
+    }
+
+    .footer{
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .footer p{
+        color: rgb(151, 151, 151);
+    }
+
+    .footer h2 span{
+        color: orangered;
+    }
+
+    .footer_icon {
+        margin-left: 35px;  
+    }
+
+    .link2 i{
+        border: 1px solid rgb(131, 131, 131);
+        border-radius: 5px;
+    }
+
+    .foot h2{
+        margin-left: 40px;
+    }
+
+    .footer_icon i{
+      margin-right: 10px;
+      margin-top: 3.5px;
+      color:rgb(146, 146, 146);
+      cursor: pointer;
+      transition: .5s;
+    }
+
+    .footer_ul{
+        padding: 0;
+    }
+
+    .footer_ul span{
+        font-weight: 500;
+    }
+
+    .footer_ul li{
+        list-style: none;
+        cursor: pointer;
+        color: rgb(151, 151, 151);
+    }
+
+    .footer_ul li:hover{
+        transform: translateX(5px);
+        transition: .3s;
+    }
+
+    .m_input{
+        background-color:  rgb(1, 0, 22);
+    }
+
+    .last_footer{
+        text-align: center;
+    }
+
+    .last_footer p{
+        margin-bottom: 0;
+        font-size: 14px;
+        color: rgb(129, 129, 129);
+    }
+
+    .last_footer span{
+        color: orangered;
+        font-style: italic;
+    }
+/*======================== Footer ends here========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+

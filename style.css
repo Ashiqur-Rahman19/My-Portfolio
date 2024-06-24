@@ -1,0 +1,748 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Noto+Sans:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(1, 0, 36) !important;
+
+    color: white !important;
+}
+h1, h2{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 700 !important;
+}
+h3, h4{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+}
+h5, h6{
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 600;
+}
+h6{
+    color: rgb(165, 165, 165) !important;
+}
+p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: rgb(201, 201, 201);
+}
+a{
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: rgb(223, 223, 223) !important;
+    font-weight: 500 !important;
+    font-size: 18px !important; 
+}
+.btn {
+    color: white !important;
+    border: 1px solid  white !important;
+    cursor: pointer !important; 
+    box-shadow: 2px 2px 5px  rgb(0, 0, 0);
+    font-weight: 600 !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    transition: .3s !important;
+}
+.btn:hover{
+    background-color: white !important;
+    color: orangered!important;
+    transition: .3s !important;
+}
+
+
+/*====================== Header section starts here======================== */
+/*====================== Header section starts here======================== */
+#logo{
+    font-size: 35px !important;
+    font-weight: bolder;
+    max-width: 100% !important;
+}
+#logo span{
+    color: orangered;
+}
+#myNav{
+    margin-left: 100px;
+ }
+.nav-item{
+    padding: 0 15px;  
+}
+.nav-link{
+    color: rgb(223, 223, 223) !important;
+    font-weight: 400 !important;
+    transition: all ease-in-out .3s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+/*====================== Header section ends here======================== */
+/*====================== Header section ends here======================== */
+
+
+/*======================== Section 1 strarts here========================= */
+/*======================== Section 1 strarts here========================= */
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 200px; 
+}
+.section_1_text{
+    margin-top: -150px;
+}
+.social_link {
+    margin-left: -5px;
+    margin-bottom: 20px;
+}
+.social_link i{
+    color:rgb(131, 131, 131);  
+    padding: 5px 7px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+.social_link .fa-brands{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-square-facebook:hover{
+    color: 	white;   
+}
+.fa-square-x-twitter:hover{
+    color: white;
+}
+.fa-square-instagram:hover{
+    color: white;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+.fa-square-youtube:hover{
+    color: white;
+}
+.section_1_text_para{
+    position: absolute; 
+    padding-right: 50px;
+}
+.section_1_text_para h1{
+    font-size: 55px;
+}
+.section_1_text_para a{
+    text-decoration: none;
+}
+.section_1_text_para span{
+    color: orangered;
+}
+.para{
+    width: 40%;
+}
+.section_1_text_para p{
+    color: rgb(201, 201, 201);
+}
+.btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px !important;
+}
+.section_1_img{
+   border-radius: 50%;
+}
+.section_1_img img{
+   max-width: 100%;
+ }
+/* Solar system animation */
+/* Solar system animation */
+.solar_system {
+    max-width:50%;
+    margin: auto;
+    position: relative; 
+    margin-top: -150px;
+    z-index: 0;  
+    opacity: .9;
+}
+.mern{
+    height: 100px;
+    width: 100px;
+    background-image: url(Image/sun.gif);
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mongoDB{
+    height: 50px;
+    width: 50px;
+    background-image: url(Image/mongoDB.png);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    animation: orbit2 10s linear infinite;
+}
+@keyframes orbit2{
+    from{
+        transform :rotate(0deg)translateX(85px) rotate(0deg);
+    }
+    to{
+        transform :rotate(360deg)translateX(85px) rotate(-360deg);
+    }
+}
+.mongoDB-outline, .express-outline, .react-outline, .node-outline{
+    border-radius: 50%;
+    border: 1px dotted rgb(184, 184, 184);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mongoDB-outline{
+    height: 170px;
+    width: 170px;  
+}
+.express{
+    height: 50px;
+    width: 50px;
+    background-image: url(Image/express.js.png);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    animation: orbit3 15s linear infinite;
+}
+
+@keyframes orbit3{
+    from{
+        transform :rotate(0deg)translateX(135px) rotate(0deg);
+    }
+    to{
+        transform :rotate(360deg)translateX(135px) rotate(-360deg);
+    }
+}
+.express-outline{
+    height: 270px;
+    width: 270px;
+}
+.react{
+    height: 50px;
+    width: 50px;
+    background-image: url(Image/react.js-1.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    animation: orbit4 20s linear infinite;
+}
+@keyframes orbit4{
+    from{
+        transform :rotate(0deg)translateX(185px) rotate(0deg);
+    }
+    to{
+        transform :rotate(360deg)translateX(185px) rotate(-360deg);
+    }
+}
+.react-outline{
+    height: 370px;
+    width: 370px;
+}
+.node{
+    height: 50px;
+    width: 50px;
+    background-image: url(Image/node.js.png);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    animation: orbit5 25s linear infinite;
+}
+@keyframes orbit5{
+    from{
+        transform :rotate(0deg)translateX(235px) rotate(0deg);
+    }
+    to{
+        transform :rotate(360deg)translateX(235px) rotate(-360deg);
+    }
+}
+.node-outline{
+    height: 470px;
+    width: 470px;
+}
+/* Solar system animation */
+/* Solar system animation */
+/*======================== Section 1 ends here========================= */
+/*======================== Section 1 ends here========================= */
+
+
+/*======================== Section 2 starts here========================= */
+/*======================== Section 2 starts here========================= */
+.section2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section2-header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section2-header h5{
+    color: red;
+}
+.services{
+    margin-top: 30px;
+}
+.card{
+    transition: .5s;
+    cursor: pointer;
+}
+.card h2{
+    color: orangered !important;
+    transition: .5s;
+}
+.card:hover{
+    border: 1px solid orangered;
+    transform: translateY(-10px);
+    transition: .5s;
+    box-shadow: 1px 1px 5px rgb(150, 150, 150) , -1px -1px 5px rgb(150, 150, 150);
+}
+.card:hover h2{
+    color: white !important;
+    transition: .5s;
+}
+.card-body:hover i{
+    color: white;
+    background-color: orangered;
+    transition: .5s;
+}
+.card-body{
+    text-align: center;
+    background-color:rgb(1, 0, 36);
+    border-radius: 5px;
+}
+.card-body i{
+    font-size: 35px;
+    margin: 10px;
+    color: orangered;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.card-body h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.card-title{
+    text-align: justify !important;
+    padding: 0 10px;
+}
+.card-title{
+    color: rgb(165, 165, 165) !important;
+    font-size: 15px;
+}
+/*======================== Section 2 ends here========================= */
+/*======================== Section 2 ends here========================= */
+
+
+/*======================== Section 3 starts here========================= */
+/*======================== Section 3 starts here========================= */
+.section3{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section3_aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3-header{
+    text-align: center;
+}
+.section3-header h5{
+    color: red;
+}
+.section3-text{
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: justify;
+}
+.section3-text h1{
+    color: orangered;
+}
+/*======================== Section 3 ends here========================= */
+/*======================== Section 3 ends here========================= */
+
+
+/*======================== Section 4 starts here========================= */
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section4_text{
+    width: 50%;
+    padding-right: 100px;
+}
+.section4_text h2{
+    font-size: 45px;
+}
+.section4_text h5{
+    color: red;
+}
+.section4_text p{
+    text-align: justify;
+}
+
+/* Progress bar */
+/* Progress bar */
+.skill-container{
+    width: 40%;
+    padding: 10px;
+}
+.skill-container h5{
+    font-size: 15px;
+}
+.skill-container li{
+    list-style: none;
+    text-transform: capitalize;
+    margin: 50px 10px;
+    position: relative; 
+    font-weight: 500;
+}
+.skill-container li::before{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: rgb(202, 202, 202);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 100px;  
+}
+.skill-container li::after{
+    content: '';
+    width:0%;
+    height: 5px;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border-radius: 100px;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-delay: 5s;
+}
+.skill-container li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 95%;
+        background-color: orangered;;
+    }
+}
+.skill-container li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 90%;
+        background-color: orangered;
+    }
+}
+.skill-container li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 80%;
+        background-color:orangered;;
+    }
+}
+.skill-container li.php::after{
+    animation-name: php;
+}
+@keyframes php{
+    to{
+        width: 85%;
+        background-color: orangered;;
+    }
+}
+.skill-container li.node_js::after{
+    animation-name: node;
+}
+@keyframes node{
+    to{
+        width: 90%;
+        background-color: orangered;;
+    }
+}
+/* Progress bar */
+/* Progress bar */
+/*======================== Section 4 ends here========================= */
+/*======================== Section 4 ends here========================= */
+
+
+/*======================== Section 5 starts here========================= */
+/*======================== Section 5 starts here========================= */
+.section5{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section5_header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section5_header h5{
+    color: red;
+}
+.section5_portfolios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section5_portfolios .card:hover{
+    transform: scale(1.1)!important;
+    transition: .5s !important;
+}
+.section5_portfolios .card:hover h6{
+    color: white !important;
+}
+/*======================== Section 5 ends here========================= */
+/*======================== Section 5 ends here========================= */
+
+
+/*======================== Section 6 starts here========================= */
+/*======================== Section 6 starts here========================= */
+.section6{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: rgb(1, 0, 36);
+    color: white;
+}
+.section6 .section6Div1{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.section6 .section6Div1 h1{
+    font-size: 35px;
+}
+.section6Div1 h5{
+    color: red;
+}
+.section6 .section6Div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+.section6 .section6Div2 .card{
+    background-color:  rgb(1, 0, 36);
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px 50px;
+    padding: 0px 30px;
+    border-radius: 7px;
+}
+.section6 .section6Div2 .card h1{
+    font-size: 40px;
+    color: orangered;
+    background-color:  white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 70px 0px;
+    margin: 20px 0;
+}
+.section6 .section6Div2 .card h3{
+    font-size: 20px;
+    color: orangered;
+}
+.section6 .section6Div2 .card h2{
+    font-size: 35px;
+    color: orangered;
+}
+.section6 .section6Div2 .card{
+    color: rgb(165, 165, 165);
+}
+.section6 .section6Div2 .card:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    border: 1px solid orangered;  
+}
+.section6 .section6Div2 .card:hover h1{
+    border: 1px solid orangered;
+}
+.btn{
+    margin: 20px 0;
+    border-radius: 10px !important;
+}
+/*======================== Section 6 ends here========================= */
+/*======================== Section 6 ends here========================= */
+
+
+/*======================== Section 7 starts here========================= */
+/*======================== Section 7 starts here========================= */
+.section7{
+     margin-top: 150px;
+     margin-bottom: 100px;
+}
+.section7_header{
+    text-align: center;
+     margin-bottom: 100px;
+}
+.section7_header h5{
+    color: red;
+}
+.contact_header{
+    margin-bottom: 50px;
+}
+.contact_address{
+    margin-bottom: 55px;
+    margin-left: -25px;
+}
+.contact_link {
+    margin-top: 10px;
+}
+ .contact_link h2{
+    font-size: 20px !important;
+}
+.myIcon{
+    font-size: 40px;
+    margin: 0 30px;
+    padding:15px 15px 15px 15px;
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+.myIcon:hover{
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+}
+.myIcon2{
+    padding: 15px 21px;
+}
+.my_input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(1, 0, 36);
+    color: white;
+}
+.my_input::placeholder{
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+}
+.my_input2{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+    background-color: rgb(1, 0, 36);
+    color: white;
+}
+.my_input2::placeholder{
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+}
+/*======================== Section 6 ends here========================= */
+/*======================== Section 6 ends here========================= */
+
+
+/*======================== Footer starts here========================= */
+/*======================== Footer starts here========================= */
+footer{
+    background-color: rgb(1, 0, 22);
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    margin-top: 50px;
+}
+.footer p{
+    color: rgb(151, 151, 151);
+}
+.footer h2 span{
+    color: orangered;
+}
+.footer_icon {
+    margin-left: 35px;  
+}
+.link2 i{
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 5px;
+}
+.foot h2{
+    margin-left: 40px;
+}
+.footer_icon i{
+    margin-right: 10px;
+    margin-top: 3.5px;
+    color:rgb(146, 146, 146);
+    cursor: pointer;
+    transition: .5s;
+}
+.footer_ul{
+    padding: 0;
+}
+.footer_ul a{
+    text-decoration: none !important;
+}
+.footer_ul span{
+    font-weight: 500;
+}
+.footer_ul li{
+    list-style: none;
+    cursor: pointer;
+    color: rgb(151, 151, 151);
+}
+.footer_ul li:hover{
+    transform: translateX(5px);
+    transition: .3s;
+}
+.m_input{
+    background-color:  rgb(1, 0, 22);
+}
+.last_footer{
+    text-align: center;
+}
+.last_footer p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+}
+
+.last_footer span{
+    color: orangered;
+}
+/*======================== Footer ends here========================= */
+/*======================== Footer ends here========================= */
+
+
